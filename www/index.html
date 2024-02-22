@@ -11,11 +11,11 @@
         var numero01, numero02, resultado
 
     function somar(){
-        numero01-ParseInt(document.getElemnetById('numero01').value)
-        numero02-ParseInt(document.getElemnetById('numero02').value)
+        numero01=parseInt(document.getElementById('numero01').value)
+        numero02=parseInt(document.getElementById('numero02').value)
 
         resultado = numero01 + numero02
-        document.getElemnetById('visor').innerHTML = resultado }
+        document.getElementById('visor').innerHTML = resultado }
 
     </script>
 </head>
@@ -26,5 +26,6 @@
     <input type="number" placeholder="Insira o Primeiro Numero" id="numero01">
     <input type="number" placeholder="Insira o Segundo Numero" id="numero02"><br>
     <input type ="button" value="somar" onclick="somar()" >
+ 
 </body>
 </html>
